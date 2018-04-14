@@ -53,6 +53,14 @@ li:hover {
 	color: #e3afbc;
 }
 
+a {
+	text-decoration: none;
+}
+
+button:focus {
+	outline: 0;
+}
+
 header {
 	font-size: 32px;
 	height: 50px;
@@ -96,7 +104,7 @@ footer {
 	min-height: 50%;
 	height: auto;
 	margin: 20px auto;
-	border: 2px solid #ee4c7c;
+	border: 2px solid #9a1750;
 	display: block;
 	overflow: hidden;
 	background-color: #fff;
@@ -134,8 +142,28 @@ footer {
 	padding-top: 10px;
 }
 
-.project-description button {
-	margin-top: 10px;
+.project-links {
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.project-links a {
+	display: inline-block;
+	text-align: center;
+	padding: 5px 32px;
+	margin-left: 10px;
+	background-color: #e3e2df;
+	color: #9a1750;
+	border: 2px solid #9a1750;
+	width: 100px;
+	height: 30px;
+}
+
+.project-links a:hover {
+	background-color: #9a1750;
+	color: #e3e2df;
+	border: 2px solid #ee4c7c;
 }
 
 @media (max-width: 768px) {

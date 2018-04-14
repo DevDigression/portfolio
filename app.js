@@ -1,9 +1,6 @@
 $(openDisplay);
 
 function openDisplay() {
-	$(".contact-page").addClass("no-display");
-	$(".projects-page").addClass("no-display");
-	$(".about-page").removeClass("no-display");
 	$(".about-nav").addClass("active");
 	handleNav();
 }
