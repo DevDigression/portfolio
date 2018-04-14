@@ -12,6 +12,14 @@ nav {
 	box-shadow: -6px 0 8px 8px;
 }
 
+.fa-react {
+	color: #e3e2df;
+	position: fixed;
+	width: 100px;
+	margin-left: 80px;
+	margin-top: 70px;
+}
+
 body {
 	background-color: #e3e2df;
 	/*	width: 100%;
@@ -95,10 +103,6 @@ footer {
 	vertical-align: middle;
 }
 
-.project img:hover {
-	filter: blur(3px);
-}
-
 .project-description {
 	text-align: center;
 	display: inline-block;
@@ -119,13 +123,19 @@ footer {
 	}
 
 	ul {
+		font-size: 16px;
 		width: 100%;
-		margin: 15px auto;
+		margin: 20px auto;
+		text-align: right;
 	}
 
 	li {
 		display: inline;
-		padding: 0 20px;
+		padding: 0 25px;
+	}
+
+	.fa-react {
+		margin: 20px auto 10px 25px;
 	}
 
 	main {
@@ -164,5 +174,15 @@ footer {
 		clear: both;
 		width: 90%;
 		margin: 10px auto;
+	}
+}
+
+@media (max-width: 400px) {
+	.fa-react {
+		margin: 20px auto 10px 10px;
+	}
+
+	li {
+		padding: 0 15px;
 	}
 }
