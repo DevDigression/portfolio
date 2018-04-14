@@ -16,11 +16,11 @@ nav li {
 	cursor: pointer;
 }
 
-.fa-react {
+nav .fa-react {
 	color: #e3e2df;
 	position: fixed;
-	width: 100px;
-	margin-left: 80px;
+	width: 200px;
+	margin-left: 50px;
 	margin-top: 70px;
 }
 
@@ -97,6 +97,39 @@ footer {
 
 .active {
 	color: #e3afbc;
+}
+
+.about-image {
+	width: 200px;
+	margin: 50px auto;
+}
+
+.about-image img {
+	width: 100%;
+}
+
+.about-text {
+	width: 70%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.contact-icons {
+	width: 25%;
+	padding: 20px;
+	margin: 50px auto;
+}
+
+.fa-github,
+.fa-linkedin-in,
+.fa-facebook {
+	margin-left: 20px;
+}
+
+.fa-github:hover,
+.fa-linkedin-in:hover,
+.fa-facebook:hover {
+	color: #5d001e;
 }
 
 .project {
