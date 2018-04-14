@@ -9,6 +9,7 @@ nav {
 	position: fixed;
 	top: 0;
 	bottom: 0;
+	box-shadow: -6px 0 8px 8px;
 }
 
 body {
@@ -74,13 +75,13 @@ footer {
 }
 
 .project {
-	/*	position: relative;*/
 	width: 90%;
 	min-height: 50%;
 	height: auto;
 	margin: 20px auto;
 	border: 2px solid #333;
 	display: block;
+	overflow: hidden;
 }
 
 .project-image {
@@ -89,11 +90,22 @@ footer {
 	width: 50%;
 }
 
+.project-image img {
+	width: 100%;
+	vertical-align: middle;
+}
+
+.project img:hover {
+	filter: blur(3px);
+}
+
 .project-description {
 	text-align: center;
 	display: inline-block;
-	margin: 10px auto;
-	width: 30%;
+	width: 50%;
+	height: inherit;
+	padding: 20px;
+	margin: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -103,6 +115,7 @@ footer {
 		margin: 0;
 		left: 0;
 		right: 0;
+		box-shadow: 0 8px 6px -6px;
 	}
 
 	ul {
