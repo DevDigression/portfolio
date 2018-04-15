@@ -20,7 +20,7 @@ nav .fa-react {
 	color: #e3e2df;
 	position: fixed;
 	width: 200px;
-	margin-left: 50px;
+	margin-left: 80px;
 	margin-top: 70px;
 }
 
@@ -57,8 +57,18 @@ a {
 	text-decoration: none;
 }
 
+a:focus {
+	outline: 0;
+}
+
 button:focus {
 	outline: 0;
+}
+
+.contact-page a:link,
+.contact-page a:active,
+.contact-page a:visited {
+	color: #333;
 }
 
 header {
@@ -115,20 +125,22 @@ footer {
 }
 
 .contact-icons {
-	width: 25%;
-	padding: 20px;
+	width: 325px;
 	margin: 50px auto;
+	padding-left: 20px;
 }
 
 .fa-github,
 .fa-linkedin-in,
-.fa-facebook {
+.fa-facebook,
+.fa-envelope {
 	margin-left: 20px;
 }
 
 .fa-github:hover,
 .fa-linkedin-in:hover,
-.fa-facebook:hover {
+.fa-facebook:hover,
+.fa-envelope:hover {
 	color: #5d001e;
 }
 
@@ -141,6 +153,7 @@ footer {
 	display: block;
 	overflow: hidden;
 	background-color: #fff;
+	color: #333;
 }
 
 .project-image-left {
@@ -175,25 +188,30 @@ footer {
 	padding-top: 10px;
 }
 
+.project-icons {
+	margin-top: 10px;
+	color: #9a1750;
+}
+
 .project-links {
 	display: block;
 	width: 100%;
 	margin-top: 20px;
 }
 
-.project-links a {
+.project-links button {
 	display: inline-block;
 	text-align: center;
-	padding: 5px 32px;
 	margin-left: 10px;
 	background-color: #e3e2df;
 	color: #9a1750;
 	border: 2px solid #9a1750;
 	width: 100px;
 	height: 30px;
+	cursor: pointer;
 }
 
-.project-links a:hover {
+.project-links button:hover {
 	background-color: #9a1750;
 	color: #e3e2df;
 	border: 2px solid #ee4c7c;
@@ -221,7 +239,7 @@ footer {
 		padding: 0 25px;
 	}
 
-	.fa-react {
+	nav .fa-react {
 		margin: 20px auto 10px 25px;
 	}
 
@@ -268,7 +286,7 @@ footer {
 }
 
 @media (max-width: 400px) {
-	.fa-react {
+	nav .fa-react {
 		margin: 20px auto 10px 10px;
 	}
 
