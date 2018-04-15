@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
 	margin: 0;
+	font-family: "Oswald", sans-serif;
 }
 
 nav {
@@ -20,7 +21,7 @@ nav .fa-react {
 	color: #e3e2df;
 	position: fixed;
 	width: 200px;
-	margin-left: 80px;
+	margin-left: 90px;
 	margin-top: 70px;
 }
 
@@ -39,7 +40,7 @@ ul {
 	color: #e3e2df;
 	text-align: center;
 	margin-top: 200px;
-	margin-left: 50px;
+	margin-left: 60px;
 	position: fixed;
 	padding-left: 0;
 	display: block;
@@ -189,8 +190,15 @@ footer {
 }
 
 .project-icons {
-	margin-top: 10px;
+	width: 100%;
+	margin: 10px auto;
 	color: #9a1750;
+}
+
+.project-icons .fa-js,
+.project-icons .fa-node-js,
+.project-icons .fa-react {
+	margin: 0 auto;
 }
 
 .project-links {
