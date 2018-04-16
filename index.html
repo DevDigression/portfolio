@@ -7,15 +7,15 @@
 </head>
 <body>
 	<nav>
-		<div class="landing-nav"><i class="fab fa-react"></i></div>
+		<div class="landing-nav"><a href="#landing"><i class="fab fa-react"></i></a></div>
 		<ul>
-			<li class="about-nav">About Me</li>
-			<li class="projects-nav">Projects</li>
-			<li class="contact-nav">Contact</li>
+			<li class="about-nav"><a href="#about">About Me</a></li>
+			<li class="projects-nav"><a href="#projects">Projects</a></li>
+			<li class="contact-nav"><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 	<main>
-		<div class="landing-page">
+		<div id="landing" class="landing-page">
 					<div class="landing-image">
 			<img src="http://devdigression.com/wp-content/uploads/2017/09/WPAvatar.jpg" / >
 		</div>
@@ -23,7 +23,8 @@
 		<p>Hello, World! My name is Chris, and I am a web developer currently located in South Florida. I have a background in teaching, yet I simultaneously and continuously hold the position of student. I am always looking to expand my knowledge and to grow as a developer with the aim of creating software that benefits everyone involved in the process!</p>
 	</div>
 	</div>
-		<div class="about-page no-display">
+		<div id="about" class="about-page">
+			<header>About Me</header>
 			<div class="about-text">
 				<p>For the past six years, I have been a social studies teacher - as well as de facto tech support - at a small private school in South Florida.</p>
 				<p>I enjoy learning as much - if not, more - than I enjoy teaching. My passion for learning can easily lead me to obsess over topics ranging from the development of utopian communities throughout mid-ninteenth-century America to the disappearance of shopping malls to the correct music genre for particular artists.</p>
@@ -34,9 +35,11 @@
 			</div>
 		</div>
 
-		<div class="projects-page no-display">
+		<div id="projects" class="projects-page">
+			<header>Projects</header>
 			<div class="project">
 				<img class="project-image-left left" src="http://devdigression.com/wp-content/uploads/2018/03/Apply-Yourself-Intro.jpg" / >
+				<img class="project-image-mobile" src="http://devdigression.com/wp-content/uploads/2018/03/Apply-Yourself-Intro.jpg" / >
 				<div class="project-description right">
 					<h2>Apply Yourself</h2>
 				<div class="project-icons">
@@ -56,6 +59,7 @@
 			<div class="clear"></div>
 			<div class="project">
 				<img class="project-image-right right" src="http://devdigression.com/wp-content/uploads/2017/12/Studyficient-Header.jpg" / >
+				<img class="project-image-mobile" src="http://devdigression.com/wp-content/uploads/2017/12/Studyficient-Header.jpg" / >
 				<div class="project-description left">
 					<h2>Studyficient</h2>
 				<div class="project-icons">
@@ -75,6 +79,7 @@
 			<div class="clear"></div>
 			<div class="project">
 				<img class="project-image-left left" src="http://devdigression.com/wp-content/uploads/2017/11/Featured-Image-Be-There.png" / >
+				<img class="project-image-mobile" src="http://devdigression.com/wp-content/uploads/2017/11/Featured-Image-Be-There.png" / >
 				<div class="project-description right">
 					<h2>Be <em>There</em> - For Your Career</h2>
 				<div class="project-icons">
@@ -93,7 +98,8 @@
 			</div>
 		</div>
 
-				<div class="contact-page no-display">
+				<div id="contact" class="contact-page">
+					<header>Contact</header>
 		<div class="contact-icons">
 			<a href="https://github.com/DevDigression" target="_blank"><i class="fab fa-github fa-3x"></i></a>
 			<a href="https://www.linkedin.com/in/chrisrodgers-webdev/" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a>
