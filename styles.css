@@ -36,6 +36,7 @@ nav li {
 	position: fixed;
 	margin-left: 85px;
 	margin-top: 70px;
+	z-index: 1;
 }
 
 ul {
