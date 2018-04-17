@@ -135,6 +135,15 @@ footer {
 	width: 100%;
 }
 
+.about-page a {
+	text-decoration: none;
+	color: #5d001e;
+}
+
+.about-page a:visited {
+	color: #5d001e;
+}
+
 .about-text {
 	font-size: 20px;
 	width: 60%;
@@ -168,9 +177,8 @@ footer {
 
 .project {
 	width: 90%;
-	min-height: 50%;
 	height: auto;
-	margin: 20px auto;
+	margin: 100px auto;
 	border: 2px solid #9a1750;
 	display: block;
 	overflow: hidden;
@@ -178,23 +186,30 @@ footer {
 	color: #333;
 }
 
-.project-image-left {
+.project-image {
+	width: 45%;
 	display: inline-block;
+	vertical-align: middle;
+}
+
+.project-image-left {
+	display: block;
 	margin: 10px auto 10px 10px;
-	width: 40%;
+	width: 100%;
 }
 
 .project-image-right {
 	display: inline-block;
 	margin: 10px 10px 10px auto;
-	width: 40%;
+	width: 100%;
 }
 
 .project-image-mobile {
 	display: none;
 }
 
-.project-image img {
+.project-image-left img,
+.project-image-right img {
 	width: 100%;
 	vertical-align: middle;
 }
@@ -217,12 +232,6 @@ footer {
 	margin: 15px auto;
 	color: #9a1750;
 }
-
-/*.project-icons .fa-js,
-.project-icons .fa-node-js,
-.project-icons .fa-react {
-	margin: 0 auto;
-}*/
 
 .project-links {
 	display: block;
@@ -291,8 +300,15 @@ footer {
 
 	.project {
 		width: 100%;
-		margin: 20px auto;
+		margin: 50px auto;
 		display: block;
+	}
+
+	.project-image {
+		width: 100%;
+		display: block;
+		float: none;
+		clear: both;
 	}
 
 	.project-image-right,
