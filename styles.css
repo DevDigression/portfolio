@@ -52,18 +52,22 @@ button:focus {
 	cursor: pointer;
 	color: #e3e2df;
 	position: fixed;
-	margin-left: 85px;
+	margin-left: 70px;
 	margin-top: 70px;
 	z-index: 1;
 }
 
+.landing-nav-mobile {
+	display: none;
+}
+
 ul {
 	list-style: none;
-	font-size: 20px;
+	font-size: 24px;
 	color: #e3e2df;
 	text-align: center;
-	margin-top: 200px;
-	margin-left: 60px;
+	margin-top: 250px;
+	margin-left: 55px;
 	position: fixed;
 	padding-left: 0;
 	display: block;
@@ -86,7 +90,7 @@ header {
 	text-align: center;
 	min-width: 80%;
 	padding-top: 10px;
-	margin: 100px auto;
+	margin: 50px auto;
 }
 
 footer {
@@ -137,11 +141,11 @@ footer {
 
 .about-page a {
 	text-decoration: none;
-	color: #5d001e;
+	color: #9a1750;
 }
 
 .about-page a:visited {
-	color: #5d001e;
+	color: #9a1750;
 }
 
 .about-text {
@@ -268,9 +272,10 @@ footer {
 
 	ul {
 		font-size: 16px;
-		width: 100%;
+		width: 90%;
 		margin: 20px auto;
 		text-align: right;
+		display: inline-block;
 	}
 
 	li {
@@ -278,8 +283,15 @@ footer {
 		padding: 0 25px;
 	}
 
-	.landing-nav {
+	.landing-nav-mobile {
 		margin: 25px auto 10px 25px;
+		z-index: 1;
+		width: 20px;
+		display: inline-block;
+	}
+
+	.landing-nav {
+		display: none;
 	}
 
 	main {
@@ -346,7 +358,7 @@ footer {
 }
 
 @media only screen and (max-width: 400px) {
-	.landing-nav {
+	.landing-nav-mobile {
 		margin: 25px auto 10px 15px;
 	}
 
