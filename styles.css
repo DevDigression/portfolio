@@ -61,7 +61,7 @@ button:focus {
 	display: none;
 }
 
-ul {
+nav ul {
 	list-style: none;
 	font-size: 24px;
 	color: #e3e2df;
@@ -73,7 +73,7 @@ ul {
 	display: block;
 }
 
-li {
+nav li {
 	padding-top: 25px;
 }
 
@@ -237,6 +237,21 @@ footer {
 	color: #9a1750;
 }
 
+.project-tech {
+	width: 100%;
+	margin: 15px auto;
+	color: #9a1750;
+}
+
+.project ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.project li {
+	display: inline;
+}
+
 .project-links {
 	display: block;
 	width: 100%;
@@ -270,7 +285,7 @@ footer {
 		box-shadow: 0 8px 6px -6px;
 	}
 
-	ul {
+	nav ul {
 		font-size: 16px;
 		width: 90%;
 		margin: 20px auto;
@@ -278,7 +293,7 @@ footer {
 		display: inline-block;
 	}
 
-	li {
+	nav li {
 		display: inline;
 		padding: 0 25px;
 	}
@@ -362,7 +377,7 @@ footer {
 		margin: 25px auto 10px 15px;
 	}
 
-	li {
+	nav li {
 		padding: 0 15px;
 	}
 }
