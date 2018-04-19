@@ -61,12 +61,12 @@ button:focus {
 	display: none;
 }
 
-.landing-img {
+.nav-icon {
 	width: 70px;
 	border-radius: 50%;
 }
 
-.landing-img img {
+.nav-icon img {
 	width: 100%;
 }
 
@@ -202,7 +202,6 @@ footer {
 .project-image {
 	width: 45%;
 	display: inline-block;
-	vertical-align: middle;
 }
 
 .project-image-left {
@@ -287,6 +286,16 @@ footer {
 	background-color: #9a1750;
 	color: #e3e2df;
 	border: 2px solid #ee4c7c;
+}
+
+@media only screen and (max-width: 1024px) {
+	.project-image-left {
+		margin: 100px auto 10px 10px;
+	}
+
+	.project-image-right {
+		margin: 100px 10px 10px auto;
+	}
 }
 
 @media only screen and (max-width: 768px) {
