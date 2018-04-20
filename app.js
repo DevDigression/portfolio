@@ -1,3 +1,53 @@
+$(openDisplay);
+
+function openDisplay() {
+	handleNav();
+}
+
+function handleNav() {
+	$(".landing-nav").on("click", function() {
+		$("nav")
+			.find("a")
+			.removeClass("active");
+	});
+
+	$(".about-nav").on("click", function() {
+		$(".about-nav")
+			.find("a")
+			.addClass("active");
+		$(".projects-nav")
+			.find("a")
+			.removeClass("active");
+		$(".contact-nav")
+			.find("a")
+			.removeClass("active");
+	});
+
+	$(".projects-nav").on("click", function() {
+		$(".projects-nav")
+			.find("a")
+			.addClass("active");
+		$(".about-nav")
+			.find("a")
+			.removeClass("active");
+		$(".contact-nav")
+			.find("a")
+			.removeClass("active");
+	});
+
+	$(".contact-nav").on("click", function() {
+		$(".contact-nav")
+			.find("a")
+			.addClass("active");
+		$(".projects-nav")
+			.find("a")
+			.removeClass("active");
+		$(".about-nav")
+			.find("a")
+			.removeClass("active");
+	});
+}
+
 $('a[href*="#"]')
 	.not('[href="#"]')
 	.not('[href="#0"]')
