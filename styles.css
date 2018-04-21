@@ -404,7 +404,8 @@ footer {
 		width: 90%;
 	}
 
-	.about-text {
+	.about-text,
+	.contact-text {
 		width: 90%;
 	}
 }
