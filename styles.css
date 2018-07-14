@@ -76,7 +76,7 @@ button:focus {
 	height: 100vh;
 	width: 100vw;
 	background: #e3afbc;
-	opacity: 0.7;
+	opacity: 0.8;
 	z-index: 1;
 	position: absolute;
 	top: 0;
@@ -84,12 +84,13 @@ button:focus {
 }
 
 .landing-text {
-	font-size: 20px;
-	width: 60%;
+	font-size: 28px;
+	width: 80%;
 	padding: 20px;
 	margin: 30px auto;
 	color: #fff;
 	z-index: 3;
+	text-shadow: 1px 1px #333;
 }
 
 .landing-nav {
@@ -348,6 +349,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
 	nav {
+		z-index: 5;
 		width: 100%;
 		height: 60px;
 		left: 0;
@@ -370,7 +372,7 @@ footer {
 
 	.landing-nav-mobile {
 		margin: 10px auto 10px 25px;
-		z-index: 3;
+		z-index: 5;
 		width: 20px;
 		display: inline-block;
 	}
@@ -443,10 +445,9 @@ footer {
 	}
 
 	.landing-text {
-		font-size: 20px;
+		font-size: 24px;
 		width: 90%;
-		padding: 20px;
-		margin: 30px auto;
+		padding: 20px 20px 100px 20px;
 		color: #fff;
 		z-index: 2;
 	}
