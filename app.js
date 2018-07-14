@@ -1,5 +1,9 @@
 $(openDisplay);
 
+setTimeout(function(){
+     document.querySelector('video').play();
+ }, 1000);
+
 function openDisplay() {
 	handleNav();
 }
