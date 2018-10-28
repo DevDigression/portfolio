@@ -186,12 +186,14 @@ footer {
 	width: 100%;
 }
 
-.about-page a, .contact-text a {
+.about-page a,
+.contact-text a {
 	text-decoration: none;
 	color: #9a1750;
 }
 
-.about-page a:visited, .contact-text a:visited {
+.about-page a:visited,
+.contact-text a:visited {
 	color: #9a1750;
 }
 
@@ -213,7 +215,7 @@ footer {
 }
 
 .contact-icons-mobile {
-	display: none;		
+	display: none;
 }
 
 .fa-github,
@@ -414,7 +416,7 @@ footer {
 		width: 100%;
 		margin-left: 0;
 	}
-	
+
 	.landing-page {
 		z-index: -1;
 		display: flex;
@@ -504,7 +506,6 @@ footer {
 	.contact-text {
 		width: 90%;
 	}
-
 }
 
 @media only screen and (max-width: 400px) {
@@ -515,7 +516,7 @@ footer {
 	nav li {
 		padding: 0 15px;
 	}
-	
+
 	.contact-icons {
 		display: none;
 	}
@@ -524,6 +525,6 @@ footer {
 		display: block;
 		width: 300px;
 		margin: 0 auto 20px auto;
-		padding-left: 40px;	
+		padding-left: 40px;
 	}
 }
